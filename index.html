@@ -1,1 +1,16 @@
+<link rel="stylesheet" href="./webResource/css/pdfh5.css" />
+<script src="./webResource/js/pdf.js" type="text/javascript" charset="utf-8"></script>
+<script src="./webResource/js/pdf.worker.js" type="text/javascript" charset="utf-8"></script>
+<script src="./webResource/js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="./webResource/js/pdfh5.js" type="text/javascript" charset="utf-8"></script>
+
+
 <h2>Hello World</h2>
+<div id="demo"></div>
+
+
+<script>
+    var pdfh5 = new Pdfh5('#demo', {
+        pdfurl: "./default.pdf"
+    });
+</script>
